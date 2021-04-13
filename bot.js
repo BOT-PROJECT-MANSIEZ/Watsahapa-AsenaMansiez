@@ -222,7 +222,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
                 
                 else {
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez Untuk Public! 🐲*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as public. To change it, make the “WORK_TYPE” switch “private” in config vars.*\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez Untuk Public! 🐲*\n\n_Jangan mencoba pluing disini. Ini adalah nomor LOG anda._\n_Kamu dapat menggunakan perintah kesemua :)_\n\n*Bot ini bersifat public. Untuk menggantinya, ubah vars “WORK_TYPE” menjadi “private” diisi config vars heroku.*\n\n*Terimakasih pengguna WhatsAsenaMansiez ❤🐲*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
