@@ -1,7 +1,7 @@
 {
     "__ASENAJSON__": true,
     "LANGUAGE": "Indonesia",
-    "LANGCODE": "in",
+    "LANGCODE": "id",
     "AUTHOR": "Phaticusthiccy / @todayisshitday(telegram) / Avi Patil",
     "STRINGS": {
         "_asena": {
@@ -56,8 +56,8 @@
             "REASON": "Alasan",
             "LAST_SEEN": "Terakhir dilihat",
             "IM_NOT_AFK": "```Saya tidak lagi AFK!```",
-            "AFK_TEXT": "```Bip bop! Ini adalah bot. Pemilik saya tidak online saat ini.```",
-            "AFK_TEXT_NOMD": "Bip bop! Ini adalah bot. Pemilik saya tidak online saat ini.",
+            "AFK_TEXT": "```Mansiez! Ini adalah bot. Pemilik saya tidak online saat ini maaf ya.```",
+            "AFK_TEXT_NOMD": "Mansiez! Ini adalah bot. Pemilik saya tidak online saat ini maaf ya.",
             "HOUR": "jam",
             "MINUTE": "menit",
             "SECOND": "detik",
