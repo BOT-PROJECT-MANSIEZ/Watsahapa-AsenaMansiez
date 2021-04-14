@@ -111,7 +111,7 @@
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
-            "value": "true"
+            "value": "false"
         },
         "COFFEEHOUSE_API_KEY": {
             "description": "CoffeeHouse API Key. Need for Lydia. https://coffeehouse.intellivoid.net/",
