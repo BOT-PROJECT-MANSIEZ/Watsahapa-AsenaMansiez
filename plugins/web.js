@@ -49,7 +49,6 @@ Asena.addCommand({pattern: 'hi', fromMe: true, deleteCommand: false, desc: Lang.
   var msg = await message.reply('```HaLLo👋🏻!```');
   var end = new Date().getTime();
 
-  await msg.delete();
   await message.client.sendMessage(
     message.jid,'*Assalamualaikum😊!*\n```' + (end - start) + 'ms```', MessageType.text);
 }));
