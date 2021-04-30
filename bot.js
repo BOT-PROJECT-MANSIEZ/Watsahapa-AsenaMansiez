@@ -269,7 +269,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez secara pribadi! 🐲*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “public” yapın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez by Tentang Aku Dan Dia Untuk pribadi! 🔮*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz sadece size özel olarak çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “public” yapın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 🔮*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -314,7 +314,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez Private! 🐲*\n\n_Jangan coba plugin di sini. Ini adalah nomor LOG anda._\n_Anda Mencoba perintah untuk mencoba apapun :)_\n\n*Bot anda berfungsi untuk pribadi. Untuk mengubahnya, ubah vars “WORK_TYPE” menjadi “public” untuk config vars nya ya:).*\n\n*Terimakasih WhatsAsenaMansiez 🐲❤*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez by Tentang Aku Dan Dia Untuk  Private! 🔮*\n\n_Jangan coba plugin di sini. Ini adalah nomor LOG anda._\n_Anda Mencoba perintah untuk mencoba apapun :)_\n\n*Bot anda berfungsi untuk pribadi. Untuk mengubahnya, ubah vars “WORK_TYPE” menjadi “public” untuk config vars nya ya:).*\n\n*Terimakasih WhatsAsenaMansiez by Tentang Aku Dan Dia  🔮*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
