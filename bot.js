@@ -178,7 +178,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
                 
                 else {
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsena Public Olarak Çalışıyor! 🐲*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz herkese açık bir şekilde çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “private” yapın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsAsena Public Olarak Çalışıyor! 🔮*\n\n_Lütfen burada plugin denemesi yapmayın. Burası sizin LOG numaranızdır._\n_Herhangi bir sohbette komutları deneyebilirsiniz :)_\n\n*Botunuz herkese açık bir şekilde çalışmaktadır. Değiştirmek için config vars üzerinden “WORK_TYPE” anahtarını “private” yapın.*\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -222,7 +222,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 }
                 
                 else {
-                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez Untuk Public! 🐲*\n\n_Jangan mencoba pluing disini. Ini adalah nomor LOG anda._\n_Kamu dapat menggunakan perintah kesemua :)_\n\n*Bot ini bersifat public. Untuk menggantinya, ubah vars “WORK_TYPE” menjadi “private” diisi config vars heroku.*\n\n*Terimakasih pengguna WhatsAsenaMansiez ❤🐲*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*WhatsAsenaMansiez by Tentang Aku Dan Dia Untuk Public! 🔮*\n\n_Jangan mencoba pluing disini. Ini adalah nomor LOG anda._\n_Kamu dapat menggunakan perintah kesemua :)_\n\n*Bot ini bersifat public. Untuk menggantinya, ubah vars “WORK_TYPE” menjadi “private” diisi config vars heroku.*\n\n*Terimakasih pengguna WhatsAsenaMansiez by Tentang Aku Dan Dia🔮*', MessageType.text);
 
                     await git.fetch();
                     var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
