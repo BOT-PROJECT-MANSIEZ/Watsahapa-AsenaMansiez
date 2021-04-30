@@ -54,6 +54,15 @@ Asena.addCommand({pattern: 'hi', fromMe: true, deleteCommand: false, desc: Lang.
     message.jid,'*Assalamualaikum😊!*\n```' + (end - start) + 'ms```', MessageType.text);
 }));
 
+Asena.addCommand({pattern: 'nama saya', fromMe: true, deleteCommand: false, desc: Lang.PING_DESC}, (async (message, match) => {
+  var start = new Date().getTime();
+  var msg = await message.reply('```Ilham Mansiz HaLLo👋🏻!```');
+  var end = new Date().getTime();
+
+  await message.client.sendMessage(
+    message.jid,'*Tinggal di Medan Salam kenal😊!*\n```' + (end - start) + 'ms```', MessageType.text);
+}));
+
 if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'short ?(.*)', fromMe: true, desc: Lang.URL}, (async (message, match) => {
