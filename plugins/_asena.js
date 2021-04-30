@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *🔮WhatsAsenaMansiez🔮 Private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *🔮WhatsAsenaMansiez🔮 Private by. Tentang Aku Dan Dia* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -112,7 +112,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *WhatsAsena Public by. Tentang Aku Dan Dia* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -144,7 +144,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *🔮WhatsAsenaMansiez🔮 Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *🔮WhatsAsenaMansiez🔮 Public by. Tentang Aku Dan Dia* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
