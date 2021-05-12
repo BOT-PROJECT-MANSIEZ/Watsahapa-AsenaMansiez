@@ -51,7 +51,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         }
     }
     else {
-        if (OFF.isAfk && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
+        if (OFF.isOff && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
@@ -77,7 +77,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
 }));
 
 Asena.addCommand({on: 'text', fromMe: true, deleteCommand: false}, (async (message, match) => {
-    if (OFF.isAfk && !message.id.startsWith('3EB0')) {
+    if (OFF.isOff && !message.id.startsWith('3EB0')) {
         OFF.lastseen = 0;
         OFF.reason = false;
         OFF.isOff = false;
@@ -89,7 +89,7 @@ Asena.addCommand({on: 'text', fromMe: true, deleteCommand: false}, (async (messa
 Asena.addCommand({pattern: 'off ?(.*)', fromMe: true, deleteCommand: false, desc: Lang.AFK_DESC}, (async (message, match) => {     
     if (!OFF.isOff) {
         OFF.lastseen = Math.round((new Date()).getTime() / 1000);
-        if (match[1] !== '') { AFK.reason = match[1]; }
+        if (match[1] !== '') { OFF.reason = match[1]; }
         OFF.isOff = true;
 
         await message.client.sendMessage(message.jid,Lang.IM_OFF + (OFF.reason !== false ? ('\n*' + Lang.REASON +':* ```' + OFF.reason + '```') : ''),MessageType.text);
