@@ -63,21 +63,6 @@
             "SECOND": "detik",
             "AGO": " lalu```"
         },
-        "off": {
-            "OFF_DESC": "Itu membuat Anda OFF.",
-            "IM_OFF": "*Saya sedang AFK sekarang jangan rindu ya😁!*",
-            "IM_OFF_NOMD": "Saya sedang AFK sekarang jangan rindu ya😁!",
-            "REASON": "Alasan",
-            "LAST_SEEN": "Terakhir dilihat",
-            "IM_NOT_OFF": "```Saya tidak lagi OFF Sekarang bisa !```",
-            "OFF_TEXT": "```Saya Mansiez! Ini adalah bot yang merespon. Pemilik saya tidak online DIA OFF saat ini maaf ya.🙏🏻```",
-            "OFF_TEXT_NOMD": "Saya Mansiez! Ini adalah bot yang merespon. Pemilik saya tidak online DIA OFF saat ini maaf ya.🙏🏻",
-            "HOUR": "jam",
-            "MINUTE": "menit",
-            "SECOND": "detik",
-            "AGO": " lalu```"
-
-        },
         "evaluators": {
             "TERM_DESC": "Memungkinkan untuk menjalankan perintah di shell server.",
             "GIVE_ME_CODE": "*Beri aku kode!*"
