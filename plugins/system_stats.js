@@ -42,7 +42,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```AKU ADALAH USERBOT. 🐅 ASENAMansiez Rindu Itu berat!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/petercord\n*Telegram Penulis:* https://t.me/diemmmmmmmmmm' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```AKU ADALAH USERBOT. 🐅🐆🐅🐆 ASENAMansiez Rindu Itu berat!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/TEAMSquadUserbotSupport\n*Telegram Penulis:* https://t.me/diemmmmmmmmmm' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Powered Ilham Mansiz by. Tentang Aku Dan Dia*', MessageType.text);
